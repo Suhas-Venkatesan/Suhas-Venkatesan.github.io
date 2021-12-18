@@ -73,4 +73,5 @@ def getteamdata():
     return df
 
 
-getteamdata()
+df = getteamdata()
+df.to_csv('nbateamdata.csv')
